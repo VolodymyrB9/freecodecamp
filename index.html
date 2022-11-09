@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
   <title>Watch</title>
 </head>
 
@@ -12,27 +13,89 @@
   <div id="page-wrapper">
     <header id="header">
       <div class="logo">
-        <img src="img/watch_logo.jpg" alt="watch logo">
+        <img id="header_img" src="img/watch_logo.jpg" alt="watch logo">
       </div>
       <nav id="nav_bar">
         <ul>
           <li>
-            <a class="nav-link" href="#Watches">Watches</a>
+            <a class="nav-link" href="#watches">Watches</a>
           </li>
           <li>
-            <a class="nav-link" href="#Review">Review</a>
+            <a class="nav-link" href="#review">Review</a>
           </li>
           <li>
-            <a class="nav-link" href="#Price">Price</a>
+            <a class="nav-link" href="#price">Price</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section>
-      
+    <section id="hero">
+      <h1> The Watch</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email " required="">
+        <input id="submit" type="submit" value="Get Started" class="btn">
+      </form>
     </section>
   </div>
-
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <img class="model" src="img/mor705.png" alt="model mor705">
+        <div class="descr">
+          <h2>The watch also features a tough and durable sapphire a Swiss Sellita SW200-1 automatic winding movement
+            that has a power
+            reserve</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <img class="model" src="img/son22.png" alt="model mor705">
+        <div class="descr">
+          <h2>The watch also features a tough and durable sapphire crystal glass and comes with a Swiss SW200-1
+            automatic winding
+            movement that has a power reserve.</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <img class="model" src="img/sw12.png" alt="model mor705">
+        <div class="descr">
+          <h2>The watch also features a tough and durable sapphire crystal glass and comes with a Sw12-1 automatic
+            winding
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section id="watches">
+      <iframe src="https://www.youtube.com/watch?v=3V5sjI7OVK4" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="">
+      </iframe>
+    </section>
+    <section id="price">
+      <div class="product" id="tenor">
+        <div class="level">Mor705</div>
+        <h2>$600</h2>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Sw12</div>
+        <h2>$900</h2>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Son22</div>
+        <h2>$1200</h2>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2016, Original Trombones</span>
+  </footer>
 </body>
 
 </html>
